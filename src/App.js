@@ -3,8 +3,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Navigate
+  Route
 } from "react-router-dom";
 import {getAll} from "./services/booksAPI";
 import { ListBooks } from "./components/Book";
